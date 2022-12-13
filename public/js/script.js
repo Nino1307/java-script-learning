@@ -9,6 +9,8 @@ let bool = true; // <- boolean true | false
 let undef; // <- undefined
 let nul = null; // <- null
 
+const arr = [1, 2, 3];
+
 // function
 function isActive() {
   if (this.status === true) {
@@ -28,4 +30,4 @@ let obj = {
 
 let res = obj.isActive();
 
-console.log(res);
+document.write(res);
